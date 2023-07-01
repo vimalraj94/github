@@ -13,6 +13,9 @@ public class sampleGit {
 	public void deposit(long depositAmount) {
 		System.out.println("depositAmount is ;" +depositAmount);
 	}
+	
+	public void spent (long spentamount) {
+		System.out.println("depositAmount is ;" +spentamount);
 	}
-
+}
 
