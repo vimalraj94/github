@@ -22,6 +22,9 @@ public class sampleGit {
 		Scanner a=new Scanner(System.in);
 		short empId=a.nextShort();
 		System.out.println(empId);
+		
+		String empName=a.next();
+		System.out.println(empName);
 	}
 }
 
