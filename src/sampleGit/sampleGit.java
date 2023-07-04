@@ -1,5 +1,7 @@
 package sampleGit;
 
+import java.util.Scanner;
+
 public class sampleGit {
 	
 
@@ -16,6 +18,10 @@ public class sampleGit {
 	
 	public void spent (long spentamount) {
 		System.out.println("depositAmount is ;" +spentamount);
+		
+		Scanner a=new Scanner(System.in);
+		short empId=a.nextShort();
+		System.out.println(empId);
 	}
 }
 
